@@ -1,0 +1,210 @@
+/*
+YUI 3.17.1 (build 0eb5a52)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+/* =============================================================================
+   Primary styles
+   Author:  Momchil Georgiev
+   ========================================================================== */
+
+.clearfix { clear: both; }
+.spacing { margin-bottom: 15px; }
+.small-spacing { margin: 5px 0; }
+.show-print { display: none; }
+
+::-moz-selection { background: #BDC3C7; color: #2C3E50; text-shadow: none; }
+::selection { background: #BDC3C7; color: #2C3E50; text-shadow: none;}
+
+a:link, a:visited, img {
+  -webkit-transition: all 0.272s ease-out;
+  -moz-transition: all 0.272s ease-out;
+  -o-transition: all 0.272s ease-out;
+  -ms-transition: all 0.272s ease-out;
+  transition: all 0.272s ease-out;
+}
+
+a:link, a:visited, a:active {
+	color: #6585a5;
+	text-decoration: none;
+}
+
+a:hover, #content .box strong:hover {
+	color: #c60f2f;
+	cursor: pointer;
+}
+
+body {
+	background: #DADADA;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.container-custom {
+  width: 80%;
+}
+
+header {
+	background: #f0f1f1;
+	border-bottom: 2px solid #D4D4D4;
+}
+
+header, h3, .main strong {
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+header h1 {
+  font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 5px; padding-bottom: 5px;
+	border-bottom: 1px solid #DADADA;
+}
+
+header h1 span {
+  font-weight: 400;
+	color: #333;
+	padding-left: 5px;
+}
+
+header h2 {
+  font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #999;
+}
+
+h3 {
+  font-weight: 700;
+	font-size: 22px;
+	color: #333;
+}
+
+header ul {
+  font-weight: 600;
+	letter-spacing: 1px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+header li {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+header li strong {
+  font-weight: 400;
+}
+
+hr {
+	height: 2px;
+	background: #C5C5C5;
+	border: 0;
+}
+
+.main {
+	padding-bottom: 15px;
+}
+
+.main img.photo {
+	border: 2px solid #C5C5C5;
+	border-radius: 5px;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+.main strong {
+	display: block;
+  font-weight: 700;
+	color: #40576F;
+}
+
+.main strong span {
+  font-weight: 600;
+	color: #444;
+}
+
+.main li strong {
+	padding-top: 10px;
+}
+
+.main li:first-child strong {
+	padding-top: 0;
+}
+
+@media print {
+  body { background: transparent; }
+  header h1 { line-height: 45px; }
+  header h1 span { display: block; padding-left: 0; padding-bottom: 10px; }
+  .spacing { margin-bottom: 5px; }
+  hr { margin: 0; }
+  .print-spacing { padding-top: 120px; }
+  .print { display: none; }
+  .show-print { display: inline; font-size: 12px; }
+}
+
+@media only screen and (max-width: 620px) {
+	header .span5 { display: block; width: 100%; text-align: center; }
+	header .span7 { display: block; width: 100%; }
+	header ul { text-align: center; }
+  header h1 { font-size: 40px; }
+  header h1 span { display: block; padding-left: 0; }
+  header h2 { font-size: 16px; }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 640px) {
+  header h1 { font-size: 23px; }
+  header h2 { font-size: 16px; }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 750px) {
+  header h1 { font-size: 25px; }
+  header h2 { font-size: 17px; }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 800px) {
+  header h1 { font-size: 28px; }
+  header h2 { font-size: 18px; }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+  header h1 { font-size: 30px; }
+  header h2 { font-size: 20px; }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1350px) {
+  header h1 { font-size: 35px; }
+  header h2 { font-size: 20px; }
+}
