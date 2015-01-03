@@ -170,7 +170,7 @@ hr {
   header h1 span { display: block; padding-left: 0; padding-bottom: 10px; }
   .spacing { margin-bottom: 5px; }
   hr { margin: 0; }
-  .print-spacing { padding-top: 120px; }
+  .print-spacing { padding-top: 4.5em; }
   .print { display: none; }
   .show-print { display: inline; font-size: 12px; }
 }
