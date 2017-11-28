@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SimplySoDev</title>
+</head>
+<body>
+    <div id="status">Loading...</div>
+
+	<script src="https://statics.teams.microsoft.com/sdk/v0.4/js/MicrosoftTeams.js"></script>
+    <script>
+        try {
+            microsoftTeams.initialize();
+        } catch (e) {
+            document.getElementById('status').innerHTML = 'Failed to initialize Microsoft Teams SDK';
+        } finally {
+            microsoftTeams.settings.setValidityState(true);
+
+            microsoftTeams.settings.registerOnSaveHandler(function (saveEvent) {
+                microsoftTeams.settings.setSettings({
+                    contentUrl: location.origin + '/index.html',
+                    suggestedDisplayName: 'SimplySo Development',
+                    websiteUrl: location.origin + '/index.html'
+                });
+
+                document.getElementById('status').innerHTML = 'Saved tab data';
+                saveEvent.notifySuccess();
+            });
+        }
+    </script>
+</body>
+</html>
