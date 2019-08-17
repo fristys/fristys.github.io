@@ -1,0 +1,153 @@
+{
+  "personal": {
+    "name": "Momchil Georgiev",
+    "occupation": "Front end developer",
+    "address": "Lendropsgade 3, 2. sal Horsens, DK",
+    "birthday": "November 15th 1993",
+    "nationality": "Bulgarian",
+    "languages": [
+      "Bulgarian",
+      "English",
+      "Russian",
+      "Danish (Basic)"
+    ],
+    "education": [
+      {
+        "name": "Linguistic and ICT studies at Secondary School \"St. Kliment Ohridski\", Troyan, Bulgaria",
+        "period": "2000 - 2012"
+      },
+      {
+        "name": "2012 - 2016",
+        "period": "Bachelor of ICT Engineering at VIA University College Campus Horsens, Denmark"
+      }
+    ],
+    "email": "fristys@gmail.com",
+    "website": {
+      "label": "fristys.me",
+      "url": "https://fristys.me"
+    },
+    "phone": "+4542527241",
+    "linkedIn": "https://linkedin.com/in/momchilgeorgievgeorgiev/",
+    "interests": [
+      "Prototyping",
+      "Photography",
+      "Mountain Biking",
+      "Basketball",
+      "Science Fiction",
+      "Fiction",
+      "Fantasy",
+      "Reading",
+      "Guitar",
+      "Movies",
+      "Hardware Enthusiast"
+    ],
+    "achievements": [
+      "4th place on the National Olympiad in IT 2010",
+      "Multiple 1st places on various IT and linguistic Olympiads in the municipality of Troyan, Bulgaria",
+      "Cambridge Certificate in Advanced English (CAE) with a Grade A"
+    ]
+  },
+  "experience": {
+    "skills": {
+      "excellent": [
+        "HTML",
+        "CSS (Less/Sass/Styled)",
+        "JavaScript (ES6/7/Next)",
+        "TypeScript",
+        "CoffeeScript",
+        "NodeJS",
+        "Java",
+        "PHP",
+        "Markdown",
+        "Git",
+        "Angular",
+        "React",
+        "Vue",
+        "Express.js",
+        "Electron",
+        "Webpack",
+        "Adal.js",
+        "MSAL.js"
+      ],
+      "good": [
+        "mySQL",
+        "MongoDB",
+        "Ruby (Rails)",
+        "C",
+        "C#",
+        "ASP.NET (MVC/Web API/Core)",
+        "Android"
+      ],
+      "average": [
+        "Python",
+        "Microsoft SQL",
+        "Oracle SQL"
+      ],
+      "vague": [
+        "AVR Assembly",
+        "SQLite",
+        "PostgreSQL",
+        "Pascal",
+        "Visual Basic"
+      ]
+    },
+    "professional": [
+      {
+        "link": "https://simplyso.com",
+        "name": "SimplySo ApS (Århus, Denmark)",
+        "position": "Lead developer",
+        "period": "February 2018 - Present",
+        "description": "Managing and working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365. Writing Front end code in HTML, CS and Javascript - primarily the Angular framework."
+      },
+      {
+        "link": "https://simplyso.com",
+        "name": "SimplySo ApS (Århus, Denmark)",
+        "position": "Front end developer",
+        "period": "February 2015 - January 2018",
+        "description": "Working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365.Writing Front end code in HTML, CS and Javascript - primarily the Angular framework."
+      },
+      {
+        "link": "https://costpartner.com",
+        "name": "CostPartner Digital ApS (Silkeborg, Denmark)",
+        "position": "Front end developer",
+        "period": "May 2013 - December 2014",
+        "description": "Working on the company's core Web Application - CostPartner ClearView, a freight and tender management application. Writing Front End code in HTML, CSS and JavaScript - mostly using the jQuery and AngularJS libraries. Responsible for the look and feel of the Front end of the application, alongside the code behind it."
+      }
+    ],
+    "freelance": [
+      {
+        "link": "https://github.com/fristys/nightwing",
+        "name": "Nightwing",
+        "position": "Creator and developer",
+        "description": "A super-versatile and lightweight 12 column CSS grid system."
+      },
+      {
+        "link": "https://github.com/fristys/styled-props-simplified",
+        "name": "Styled Props Simplified",
+        "position": "Creator and developer",
+        "description": "A small and simple library allowing you to set styled props in your styled-components stress-free."
+      },
+      {
+        "name": "St. Petka Church",
+        "position": "Developer and designer",
+        "description": "General UX design, UX coding, accompanied by a custom-tailored PHP system. This project got me to the 4th place overall in the Bulgarian National Olympiad of IT."
+      },
+      {
+        "name": "Idea Source",
+        "position": "Developer and designer",
+        "description": "A social intranet network for teachers and students alike."
+      },
+      {
+        "name": "MithrilJS Boilerplate",
+        "position": "Developer and Creator",
+        "description": "Complete creation of the boilerplate structure, maintenance code."
+      },
+      {
+        "name": "Uncredited work",
+        "position": "Developer and designer",
+        "period": "November 2005 - May 2013",
+        "description": "I've been working freelance on various projects since my early teens. From websites, to banners, to branding, to concepts."
+      }
+    ]
+  }
+}
