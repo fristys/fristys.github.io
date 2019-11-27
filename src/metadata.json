@@ -5,12 +5,7 @@
     "address": "Lendropsgade 3, 2. sal Horsens, DK",
     "birthday": "November 15th 1993",
     "nationality": "Bulgarian",
-    "languages": [
-      "Bulgarian",
-      "English",
-      "Russian",
-      "Danish (Basic)"
-    ],
+    "languages": ["Bulgarian", "English", "Russian", "Danish (Basic)"],
     "education": [
       {
         "name": "Linguistic and ICT studies at Secondary School \"St. Kliment Ohridski\", Troyan, Bulgaria",
@@ -78,11 +73,7 @@
         "ASP.NET (MVC/Web API/Core)",
         "Android"
       ],
-      "average": [
-        "Python",
-        "Microsoft SQL",
-        "Oracle SQL"
-      ],
+      "average": ["Python", "Microsoft SQL", "Oracle SQL"],
       "vague": [
         "AVR Assembly",
         "SQLite",
@@ -93,18 +84,25 @@
     },
     "professional": [
       {
+        "link": "https://www.vertica.dk/en",
+        "name": "Vertica A/S (Århus, Denmark)",
+        "position": "Front end developer",
+        "period": "December 2019 - Present",
+        "description": "Working on various client projects. Writing Front end code in HTML, CSS and Javascript/Typescript - primarily the Vue and Angular frameworks."
+      },
+      {
         "link": "https://simplyso.com",
         "name": "SimplySo ApS (Århus, Denmark)",
         "position": "Lead developer",
-        "period": "February 2018 - Present",
-        "description": "Managing and working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365. Writing Front end code in HTML, CS and Javascript - primarily the Angular framework."
+        "period": "February 2018 - November 2019",
+        "description": "Managing and working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365. Writing Front end code in HTML, CSS and Javascript - primarily the Angular framework."
       },
       {
         "link": "https://simplyso.com",
         "name": "SimplySo ApS (Århus, Denmark)",
         "position": "Front end developer",
         "period": "February 2015 - January 2018",
-        "description": "Working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365.Writing Front end code in HTML, CS and Javascript - primarily the Angular framework."
+        "description": "Working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365.Writing Front end code in HTML, CSS and Javascript - primarily the Angular framework."
       },
       {
         "link": "https://costpartner.com",
