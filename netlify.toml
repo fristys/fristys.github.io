@@ -1,0 +1,14 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy= "no-referrer-when-downgrade"
+
+# Bots
+[[redirects]]
+    from = "/wp-login.php"
+    to = "https://www.google.com/"
+    status = 302
+    force = true
