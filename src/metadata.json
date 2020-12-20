@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Momchil Georgiev",
-    "occupation": "Front end developer",
+    "occupation": "Front end and mobile developer",
     "address": "Lendropsgade 3, 2. sal Horsens, DK",
     "birthday": "November 15th 1993",
     "nationality": "Bulgarian",
@@ -16,7 +16,7 @@
         "period": "Bachelor of ICT Engineering at VIA University College Campus Horsens, Denmark"
       }
     ],
-    "email": "fristys@gmail.com",
+    "email": "fristys+cv@gmail.com",
     "website": {
       "label": "fristys.me",
       "url": "https://fristys.me"
@@ -71,7 +71,8 @@
         "C",
         "C#",
         "ASP.NET (MVC/Web API/Core)",
-        "Android"
+        "Android (Kotlin)",
+        "iOS (Swift)"
       ],
       "average": ["Python", "Microsoft SQL", "Oracle SQL"],
       "vague": [
