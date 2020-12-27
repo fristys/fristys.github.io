@@ -12,8 +12,8 @@
         "period": "2000 - 2012"
       },
       {
-        "name": "2012 - 2016",
-        "period": "Bachelor of ICT Engineering at VIA University College Campus Horsens, Denmark"
+        "period": "2012 - 2016",
+        "name": "Bachelor of ICT Engineering at VIA University College Campus Horsens, Denmark"
       }
     ],
     "email": "fristys+cv@gmail.com",
@@ -85,29 +85,29 @@
     },
     "professional": [
       {
-        "link": "https://www.vertica.dk/en",
-        "name": "Vertica A/S (Århus, Denmark)",
+        "url": "https://www.vertica.dk/en",
+        "label": "Vertica A/S (Århus, Denmark)",
         "position": "Front end developer",
         "period": "December 2019 - Present",
         "description": "Working on various client projects. Writing Front end code in HTML, CSS and Javascript/Typescript - primarily the Vue and Angular frameworks."
       },
       {
-        "link": "https://simplyso.com",
-        "name": "SimplySo ApS (Århus, Denmark)",
+        "url": "https://simplyso.com",
+        "label": "SimplySo ApS (Århus, Denmark)",
         "position": "Lead developer",
         "period": "February 2018 - November 2019",
         "description": "Managing and working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365. Writing Front end code in HTML, CSS and Javascript - primarily the Angular framework."
       },
       {
-        "link": "https://simplyso.com",
-        "name": "SimplySo ApS (Århus, Denmark)",
+        "url": "https://simplyso.com",
+        "label": "SimplySo ApS (Århus, Denmark)",
         "position": "Front end developer",
         "period": "February 2015 - January 2018",
         "description": "Working on the company's core Web Application - SimplySO, a standardized web-based UI for Microsoft SharePoint, ready to run. On premise, as SaaS or for Office 365.Writing Front end code in HTML, CSS and Javascript - primarily the Angular framework."
       },
       {
-        "link": "https://costpartner.com",
-        "name": "CostPartner Digital ApS (Silkeborg, Denmark)",
+        "url": "https://costpartner.com",
+        "label": "CostPartner Digital ApS (Silkeborg, Denmark)",
         "position": "Front end developer",
         "period": "May 2013 - December 2014",
         "description": "Working on the company's core Web Application - CostPartner ClearView, a freight and tender management application. Writing Front End code in HTML, CSS and JavaScript - mostly using the jQuery and AngularJS libraries. Responsible for the look and feel of the Front end of the application, alongside the code behind it."
@@ -115,34 +115,39 @@
     ],
     "freelance": [
       {
-        "link": "https://github.com/fristys/nightwing",
-        "name": "Nightwing",
+        "period": "August 2013 - Present",
+        "url": "https://github.com/fristys/nightwing",
+        "label": "Nightwing",
         "position": "Creator and developer",
         "description": "A super-versatile and lightweight 12 column CSS grid system."
       },
       {
-        "link": "https://github.com/fristys/styled-props-simplified",
-        "name": "Styled Props Simplified",
+        "period": "August 2019 - Present",
+        "url": "https://github.com/fristys/styled-props-simplified",
+        "label": "Styled Props Simplified",
         "position": "Creator and developer",
         "description": "A small and simple library allowing you to set styled props in your styled-components stress-free."
       },
       {
-        "name": "St. Petka Church",
+        "period": "2012",
+        "label": "St. Petka Church",
         "position": "Developer and designer",
         "description": "General UX design, UX coding, accompanied by a custom-tailored PHP system. This project got me to the 4th place overall in the Bulgarian National Olympiad of IT."
       },
       {
-        "name": "Idea Source",
+        "period": "January 2015 - March 2016",
+        "label": "Idea Source",
         "position": "Developer and designer",
         "description": "A social intranet network for teachers and students alike."
       },
       {
-        "name": "MithrilJS Boilerplate",
+        "period": "2016",
+        "label": "MithrilJS Boilerplate",
         "position": "Developer and Creator",
         "description": "Complete creation of the boilerplate structure, maintenance code."
       },
       {
-        "name": "Uncredited work",
+        "label": "Uncredited work",
         "position": "Developer and designer",
         "period": "November 2005 - May 2013",
         "description": "I've been working freelance on various projects since my early teens. From websites, to banners, to branding, to concepts."
