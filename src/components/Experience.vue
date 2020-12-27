@@ -95,11 +95,14 @@ export default class Experience extends Vue {
 }
 
 .experience {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  row-gap: 1rem;
   page-break-before: avoid;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    row-gap: 1rem;
+  }
 
   @media print {
     display: block;
@@ -133,12 +136,24 @@ export default class Experience extends Vue {
       background: rgba(255, 255, 255, 0.025);
     }
 
-    &:nth-child(4n + 1),
-    &:nth-child(4n) {
-      background: rgba(0, 0, 0, 0.05);
+    @media screen and (max-width: 767px) {
+      &:nth-child(odd) {
+        background: rgba(0, 0, 0, 0.05);
 
-      @media (prefers-color-scheme: dark) {
-        background: rgba(255, 255, 255, 0.05);
+        @media (prefers-color-scheme: dark) {
+          background: rgba(255, 255, 255, 0.05);
+        }
+      }
+    }
+
+    @media print, screen and (min-width: 768px) {
+      &:nth-child(4n + 1),
+      &:nth-child(4n) {
+        background: rgba(0, 0, 0, 0.05);
+
+        @media (prefers-color-scheme: dark) {
+          background: rgba(255, 255, 255, 0.05);
+        }
       }
     }
   }

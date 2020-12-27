@@ -3,9 +3,7 @@
     <header>
       <div class="container">
         <div>
-          <h1>
-            {{ personalInformation.name }}<span>.</span>
-          </h1>
+          <h1>{{ personalInformation.name }}<span>.</span></h1>
 
           <h2>
             {{ personalInformation.occupation }}
@@ -118,14 +116,21 @@ header {
   }
 
   .container {
-    display: flex;
+    @media print, screen and (min-width: 768px) {
+      display: flex;
 
-    div {
-      flex: 1;
+      div {
+        flex: 1;
+      }
     }
 
     aside {
-      text-align: right;
+      margin-top: 1rem;
+
+      @media print, (min-width: 768px) {
+        margin-top: 0;
+        text-align: right;
+      }
 
       ul {
         list-style: none;

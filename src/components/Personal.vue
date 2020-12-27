@@ -88,10 +88,13 @@ export default class Personal extends Vue {
 
 <style scoped lang="scss">
 section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
   margin: 2rem 0;
+
+  @media print, screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
 
   @media print {
     padding-bottom: 2rem;
@@ -105,7 +108,9 @@ section {
   }
 
   article {
-    display: flex;
+    @media print, screen and (min-width: 768px) {
+      display: flex;
+    }
 
     @media print {
       display: block;
@@ -120,25 +125,42 @@ section {
     }
 
     picture {
-      width: 250px;
-      height: 250px;
-      margin-right: 1rem;
-      box-shadow: 0 0.15rem 0.25rem 0.2rem rgba(0, 0, 0, 0.15);
-
-      @media (prefers-color-scheme: dark) {
-        box-shadow: 0 0.15rem 0.25rem 0.2rem rgba(0, 0, 0, 0.15);
+      @media print, screen and (min-width: 1024px) {
+        display: block;
       }
 
       @media print {
         display: inline-block;
         float: left;
-        width: 100px;
-        height: 100px;
-        box-shadow: none;
       }
 
       img {
         width: 100%;
+        display: block;
+        box-shadow: 0 0.15rem 0.25rem 0.2rem rgba(0, 0, 0, 0.15);
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+
+        @media screen and (min-width: 768px) {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 0;
+        }
+
+        @media screen and (min-width: 1024px) {
+          width: 250px;
+          height: 250px;
+        }
+
+        @media print {
+          width: 100px;
+          height: 100px;
+          box-shadow: none;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          box-shadow: 0 0.15rem 0.25rem 0.2rem rgba(0, 0, 0, 0.15);
+        }
       }
     }
   }
