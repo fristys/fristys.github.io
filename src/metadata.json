@@ -83,7 +83,13 @@
         "Visual Basic"
       ]
     },
-    "professional": [
+    "professional": [      {
+        "url": "https://www.vertica.dk/en",
+        "label": "Vertica A/S (Århus, Denmark)",
+        "position": "Mobile developer",
+        "period": "December 2020 - Present",
+        "description": "Working on various client projects. Writing mobile apps for iOS (Swift) and Android (Kotlin)."
+      },
       {
         "url": "https://www.vertica.dk/en",
         "label": "Vertica A/S (Århus, Denmark)",
@@ -139,12 +145,6 @@
         "label": "Idea Source",
         "position": "Developer and designer",
         "description": "A social intranet network for teachers and students alike."
-      },
-      {
-        "period": "2016",
-        "label": "MithrilJS Boilerplate",
-        "position": "Developer and Creator",
-        "description": "Complete creation of the boilerplate structure, maintenance code."
       },
       {
         "label": "Uncredited work",
