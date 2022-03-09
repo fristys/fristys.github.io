@@ -1,4 +1,4 @@
-# Fristys' CV
+# Fristys' CV page
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b6630bf4-0cf0-4006-8dd0-8a8095c11f62/deploy-status)](https://app.netlify.com/sites/cv-fristys/deploys)
 
